@@ -9,7 +9,9 @@ import view.TodoListView;
 public class TodoListViewTest {
 
   public static void main(String[] args) {
-    testRemoveTodoList();
+    testShowTodoList();
+//    testAddTodoList();
+//    testRemoveTodoList();
   }
 
   public static void testShowTodoList(){

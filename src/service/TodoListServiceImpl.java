@@ -13,6 +13,7 @@ public class TodoListServiceImpl implements TodoListService {
 
   @Override
   public void showTodoList() {
+    //jalankan method getAll di repository
     Todolist[] model = todoListRepository.getAll();
 
     System.out.println("TODOLIST");
